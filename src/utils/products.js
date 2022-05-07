@@ -15,7 +15,6 @@ const products = [
       updatedAt: "2021-09-18T19:39:05.347Z",
       categoryId: 1,
       brandId: 95,
-      packingId: null,
       category: {
         name: "Hombre",
         id: 9
@@ -42,7 +41,6 @@ const products = [
       updatedAt: "2021-09-18T19:41:05.347Z",
       categoryId: 2,
       brandId: 85,
-      packingId: null,
       category: {
         name: "Mujer",
         id: 10
@@ -74,7 +72,6 @@ const products = [
       updatedAt: "2021-09-18T19:43:05.347Z",
       categoryId: 3,
       brandId: 75,
-      packingId: null,
       category: {
         name: "Niño",
         id: 11
@@ -106,7 +103,6 @@ const products = [
       updatedAt: "2021-09-18T19:45:05.347Z",
       categoryId: 1,
       brandId: 95,
-      packingId: null,
       category: {
         name: "Hombre",
         id: 9
@@ -133,7 +129,6 @@ const products = [
       updatedAt: "2021-09-18T19:47:05.347Z",
       categoryId: 4,
       brandId: 65,
-      packingId: null,
       category: {
         name: "Niña",
         id: 12
@@ -164,7 +159,6 @@ const products = [
       updatedAt: "2021-09-18T19:47:05.347Z",
       categoryId: 2,
       brandId: 85,
-      packingId: null,
       category: {
         name: "Mujer",
         id: 10
@@ -191,7 +185,6 @@ const products = [
       updatedAt: "2021-09-18T19:49:05.347Z",
       categoryId: 1,
       brandId: 95,
-      packingId: null,
       category: {
         name: "Hombre",
         id: 9
@@ -218,7 +211,6 @@ const products = [
       updatedAt: "2021-09-18T19:51:05.347Z",
       categoryId: 3,
       brandId: 75,
-      packingId: null,
       category: {
         name: "Niño",
         id: 11
@@ -249,7 +241,6 @@ const products = [
       updatedAt: "2021-09-18T19:53:05.347Z",
       categoryId: 4,
       brandId: 65,
-      packingId: null,
       category: {
         name: "Niña",
         id: 12
@@ -280,7 +271,6 @@ const products = [
       updatedAt: "2021-09-18T19:55:05.347Z",
       categoryId: 1,
       brandId: 95,
-      packingId: null,
       category: {
         name: "Hombre",
         id: 9
@@ -311,7 +301,6 @@ const products = [
       updatedAt: "2021-09-18T19:57:05.347Z",
       categoryId: 2,
       brandId: 85,
-      packingId: null,
       category: {
         name: "Mujer",
         id: 10
@@ -342,7 +331,6 @@ const products = [
       updatedAt: "2021-09-18T19:59:05.347Z",
       categoryId: 3,
       brandId: 75,
-      packingId: null,
       category: {
         name: "Niño",
         id: 11
@@ -373,7 +361,6 @@ const products = [
       updatedAt: "2021-09-18T20:01:09.347Z",
       categoryId: 4,
       brandId: 65,
-      packingId: null,
       category: {
         name: "Niña",
         id: 12
@@ -400,7 +387,6 @@ const products = [
       updatedAt: "2021-09-18T20:05:09.347Z",
       categoryId: 2,
       brandId: 85,
-      packingId: null,
       category: {
         name: "Mujer",
         id: 10
@@ -427,7 +413,6 @@ const products = [
       updatedAt: "2021-09-18T20:10:06.347Z",
       categoryId: 3,
       brandId: 75,
-      packingId: null,
       category: {
         name: "Niño",
         id: 11
@@ -460,7 +445,6 @@ const products = [
       brandId: 65,
       packingId: null,
       category: {
-        name: "Niña",
         id: 12
       },
       brand: {

@@ -6,13 +6,14 @@ const { products } = require('../utils/products');
 
 const ItemDetailContainer = () => {
     const [dato, setDato] = useState({});
-    const { idItem } = useParams();
+    const { id } = useParams();
 
     useEffect(() => {
-        customFetch(2000, products.find(item => item.id === parseInt(idItem)))
+        customFetch(2000, products.find(item => item.id === parseInt(id)))
             .then(result => setDato(result))
             .catch(err => console.log(err))
     }, []);
+    
     
     return (
         <ItemDetail item={dato} />

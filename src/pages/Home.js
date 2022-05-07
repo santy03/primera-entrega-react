@@ -10,6 +10,7 @@ const Home = () => {
     		<Routes>
     			<Route path="/" element={<ItemListContainer/>} />
     			<Route path="/category/:idCategory" element={<ItemListContainer/>} />
+                <Route path="category/:idCategory/item/:id" element={<ItemDetailContainer/>} />
     			<Route path="/item/:idItem" element={<ItemDetailContainer/>} />
     		</Routes>
     	</BrowserRouter>

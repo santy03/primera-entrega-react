@@ -14,28 +14,16 @@ const Navbar= () => {
           <a className="nav-link active" aria-current="page" href="/" style={{color:"gold"}}>La Casa del Deporte </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link " aria-current="page" href="/category/1">Hombre</a>
+          <a className="nav-link " aria-current="page" href="/category/1" style={{color:"aqua"}}>Hombre</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link " href="/category/2">Mujer</a>
+          <a className="nav-link " href="/category/2" style={{color:"pink"}}>Mujer</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link " href="/category/3">Niño</a>
+          <a className="nav-link " href="/category/3" style={{color:"blue"}}>Niño</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link " href="/category/4">Niña</a>
-        </li>
-        <li className="nav-item dropdown">
-          <a className="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tienda</a>
-          <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a className="dropdown-item" href="#">Zapatillas Hombre</a></li>
-            <li><hr className="dropdown-divider"></hr></li>
-            <li><a className="dropdown-item" href="#">Zapatillas Mujer</a></li>
-            <li><hr className="dropdown-divider"></hr></li>
-            <li><a className="dropdown-item" href="#">Zapatillas Niño</a></li>
-            <li><hr className="dropdown-divider"></hr></li>
-            <li><a className="dropdown-item" href="#">Zapatillas Niña</a></li>
-          </ul>
+          <a className="nav-link " href="/category/4" style={{color:"purple"}}>Niña</a>
         </li>
       </ul>
       <CartWidget/>

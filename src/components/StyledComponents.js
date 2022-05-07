@@ -45,7 +45,6 @@ const Image = styled.img`
     height: 75%;
     z-index: 2;
 `;
-
 const Icon = styled.div`
     font-size: 12px;
     width: 100px;
@@ -63,5 +62,4 @@ const Icon = styled.div`
 `;
 
 
-export {  ProductContainer,Circle, Image, Info, Icon 
-}
+export {  ProductContainer,Circle, Image, Info, Icon }

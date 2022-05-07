@@ -1,7 +1,7 @@
 import Item from "./Item";
 
 const ItemList = ({ items }) => {
-	  //console.log("ItemList",items)
+      //console.log("ItemList",items)
     return (
         <div>
         {

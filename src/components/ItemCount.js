@@ -1,6 +1,7 @@
 import { Button } from '@material-ui/core';
 import { Add, Remove } from '@material-ui/icons';
 import { useEffect, useState } from 'react';
+import { ProductAmountContainer, ProductAmount } from './StyledComponents';
 
 const ItemCount = ({ stock = 0, initial = 1,  onAdd }) => {
     const [count, setCount] = useState(0);
@@ -28,9 +29,8 @@ const ItemCount = ({ stock = 0, initial = 1,  onAdd }) => {
             {
                 stock
                 ? <Button variant="contained" color="primary" onClick={() => onAdd(count)}>Add to Cart</Button>
-                : <Button variant="contained" disabled>Add to Cart</Button>
+                : <Button variant="contained" disabled>Agregar al carrito</Button>
             }
-            
         </div>
     );
 }
